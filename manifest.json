@@ -1,7 +1,4 @@
 {
-    "name": "",
-    "version": "2.0",
-    "description": "",
     "name": "Our first chrome extension",
     "version": "1.0",
     "description": "Getting selected text of web pages and store them on the chrome's storage",
