@@ -1,0 +1,22 @@
+body {
+    height: 150px;
+    width: 300px;
+}
+
+#SelectedText {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 300px;
+    height: 100px;
+}
+
+#getSelectedText {
+    background-color: royalblue;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 10px;
+    height: 50xp;
+    margin-top: 1em;
+    cursor: pointer;
+}
