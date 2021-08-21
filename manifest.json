@@ -1,22 +1,28 @@
 {
-    "name": "Our first chrome extension",
-    "version": "1.0",
-    "description": "Getting selected text of web pages and store them on the chrome's storage",
+    "name": "",
+    "version": "2.0",
+    "description": "",
     "manifest_version": 2,
     "author": "Haniyeh Asemi",
+    "icons": {
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
     "browser_action": {
         "default_popup": "html/popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
     },
     "content_scripts": [
         {
             "matches": [
                 "*://*/*"
-            ],
-            "js": [
-                "js/get-selection.js"
-            ],
-            "run_at": "document_end",
-            "all_frames": true
+            ]
         }
     ],
     "permissions": [
